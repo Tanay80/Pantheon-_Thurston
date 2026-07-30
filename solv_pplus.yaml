@@ -1,0 +1,52 @@
+likelihood:
+    import: import_module('solv_pplus').my_likelihood
+    
+params:
+    h:
+        prior: {min: 0.5, max: 1.0}
+        latex: h
+        
+    sigma:
+        prior: {min: -0.2, max: 0.2}
+        latex: \sigma
+            
+    e2:
+        prior: {min: 0, max: 0.2}
+        latex: e^2
+            
+    om_im:
+        prior: {min: 0.2, max: 0.5}
+        latex: \Omega_M
+            
+    om_k:
+        prior: {min: 0, max: 0.1}
+        latex: \Omega_\kappa
+            
+    la:
+        prior: {min: 0, max: 360}
+        latex: l_a
+            
+    ba:
+        prior: {min: -90, max: 90}
+        latex: b_a
+            
+    M0:
+        prior: {min: -21, max: -18}
+        latex: M_0
+            
+    wbar:            
+        prior: {min: -1, max: 0}
+        latex: \bar{w}
+        
+sampler:
+    polychord:
+        path: /home/groupinstrument/grp_sukanta/tanay/PolyChordLite-master
+        nlive: 100d
+        num_repeats: 6d
+        precision_criterion: 0.001
+        boost_posterior: 2.0
+        do_clustering: True
+        write_dead: True
+        feedback: 1
+
+output: solv_chains/chain

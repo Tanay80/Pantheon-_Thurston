@@ -1,0 +1,25 @@
+likelihood:
+    import: import_module('lcdm').my_likelihood
+    
+params:
+    h:
+        prior: {min: 0.5, max: 1.0}
+        latex: h
+        
+    om_m:
+        prior: {min: 0, max: 0.5}
+        latex: \Omega_M
+            
+    M0:
+        prior: {min: -19.6, max: -19}
+        latex: M_0
+        
+sampler:
+    polychord:
+        nlive: 25d
+        num_repeats: 2d
+        precision_criterion: 0.01
+        do_clustering: True
+        feedback: 1
+
+output: chains/chain
