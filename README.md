@@ -186,9 +186,8 @@ Pantheon+SH0ES covariance convention.
 
 ## Citation
 
-`TODO`: add the paper reference or arXiv ID.
-
-If you use the data, please also cite Pantheon+ (Scolnic et al. 2022; Brout et al. 2022) and SH0ES (Riess et al. 2022).
+- https://arxiv.org/abs/2602.02936
+- The Pantheon+ analysis: the full data set and light-curve release (2022)
 
 ## License
 
