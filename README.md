@@ -55,10 +55,12 @@ covariance. Calibrator rows use the Cepheid distance modulus.
 
 ```
 repository/
-├── rh2s2/   rh2s2_pplus.py   rh2s2_pplus.yaml   pplus.csv  pplus_cov.txt
-├── nil/     nil_pplus.py     nil_pplus.yaml     pplus.csv  pplus_cov.txt
-├── solv/    solv_pplus.py    solv_pplus.yaml    pplus.csv  pplus_cov.txt
-└── lcdm/    (reuses rh2s2_pplus.py)  lcdm.yaml  isow.yaml
+├── rh2s2/   rh2s2_pplus.py   rh2s2_pplus.yaml
+├── nil/     nil_pplus.py     nil_pplus.yaml
+├── solv/    solv_pplus.py    solv_pplus.yaml
+└── lcdm/    (reuses rh2s2_pplus.py)  lcdm.yaml
+pplus.csv
+pplus_cov.txt
 ```
 
 - `*_pplus.py`: Cobaya external likelihood `my_likelihood(h, sigma, e2, om_im, om_k, la, ba, M0, wbar)`.
