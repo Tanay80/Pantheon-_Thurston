@@ -4,8 +4,6 @@ Code for fitting anisotropic Thurston geometries (R × H²/S², Nil, Solv) to th
 Pantheon+ & SH0ES Type Ia supernova sample, and comparing each with its isotropic limit.
 
 **Authors:** Tanay Gupta, Anshul Verma, Sukanta Panda, Pavan K. Aluri
-**Status:** manuscript under revision. Production chains are running, and no final results
-are reported here yet.
 
 ---
 
