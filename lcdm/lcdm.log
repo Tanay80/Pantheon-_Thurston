@@ -1,0 +1,353 @@
+[0 : output] Output to be read-from/written-into folder 'lcdm_chains', with prefix 'chain'
+[0 : import] Initialized external likelihood.
+[7 : import] Initialized external likelihood.
+[3 : import] Initialized external likelihood.
+[2 : import] Initialized external likelihood.
+[4 : import] Initialized external likelihood.
+[6 : import] Initialized external likelihood.
+[1 : import] Initialized external likelihood.
+[5 : import] Initialized external likelihood.
+[0 : polychord] `pypolychord` module loaded successfully from /home/tanay/PolyChordLite/build/lib.linux-x86_64-cpython-314/pypolychord
+[0 : polychord] Storing raw PolyChord output in 'lcdm_chains/chain_polychord_raw'.
+[0 : model] Measuring speeds... (this may take a few seconds)
+[0 : model] Setting measured speeds (per sec): {import: 10.5}
+[0 : polychord] Parameter blocks and their oversampling factors:
+[0 : polychord] * 1 : ['h', 'om_im', 'M0']
+[0 : polychord] Calling PolyChord...
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+
+PolyChord: Next Generation Nested Sampling
+copyright: Will Handley, Mike Hobson & Anthony Lasenby
+  version: 1.22.3
+  release: 22nd Nov 2025
+    email: wh260@mrao.cam.ac.uk
+
+Run Settings
+nlive    :     900
+nDims    :       3
+nDerived :       2
+Doing Clustering
+Synchronous parallelisation
+Generating equally weighted posteriors
+Generating weighted posteriors
+Clustering on posteriors
+Writing a resume file to lcdm_chains/chain_polychord_raw/chain.resume
+
+generating live points
+
+
+all live points generated
+
+number of repeats:           18
+started sampling
+
+_________________
+lives      | 900 |
+phantoms   |  17 |
+posteriors |8107 |
+equals     |   1 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                8107
+nposterior =                8107
+nequals    =                   1
+nlike      =                9065
+<nlike>    =           0.07   (           0.00 per slice )
+log(Z)     =        -1681.63 +/-  0.77
+log(Z_1)   =        -1681.63 +/-  0.77 (still evaluating)
+
+
+
+_________________
+lives      | 900 |
+phantoms   |9703 |
+posteriors |9651 |
+equals     |   9 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                9012
+nposterior =                9651
+nequals    =                  13
+nlike      =               58686
+<nlike>    =          55.13   (           3.06 per slice )
+log(Z)     =        -1020.44 +/-  0.32
+log(Z_1)   =        -1020.44 +/-  0.32 (still evaluating)
+
+
+
+__________________
+lives      |  900 |
+phantoms   |13498 |
+posteriors |11864 |
+equals     |   20 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                9915
+nposterior =               11864
+nequals    =                  16
+nlike      =              114736
+<nlike>    =          62.28   (           3.46 per slice )
+log(Z)     =         -872.81 +/-  0.24
+log(Z_1)   =         -872.81 +/-  0.24 (still evaluating)
+
+
+
+__________________
+lives      |  900 |
+phantoms   |14224 |
+posteriors |14453 |
+equals     |   73 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               10817
+nposterior =               14453
+nequals    =                  68
+nlike      =              176767
+<nlike>    =          68.92   (           3.83 per slice )
+log(Z)     =         -814.11 +/-  0.15
+log(Z_1)   =         -814.11 +/-  0.15 (still evaluating)
+
+
+
+_________________________
+lives      |  897 |    3 |
+phantoms   |15253 |   55 |
+posteriors |16897 |14456 |
+equals     |  168 |    1 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       2 /       2
+ndead      =               11723
+nposterior =               16900
+nequals    =                 162
+nlike      =              244470
+<nlike>    =          75.23   (           4.18 per slice )
+log(Z)     =         -793.22 +/-  0.11
+log(Z_1)   =         -793.22 +/-  0.11 (still evaluating)
+log(Z_2)   =         -809.91 +/-  0.75 (still evaluating)
+
+
+
+__________________
+lives      |  900 |
+phantoms   |15241 |
+posteriors |19503 |
+equals     |  328 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       2
+ndead      =               12621
+nposterior =               19511
+nequals    =                 343
+nlike      =              319245
+<nlike>    =          83.08   (           4.62 per slice )
+log(Z)     =         -782.51 +/-  0.10
+log(Z_1)   =         -782.51 +/-  0.10 (still evaluating)
+log(Z_2)   =         -789.07 +/-  0.51
+
+
+
+__________________
+lives      |  900 |
+phantoms   |14586 |
+posteriors |22097 |
+equals     |  635 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       2
+ndead      =               13527
+nposterior =               22105
+nequals    =                 644
+nlike      =              396538
+<nlike>    =          85.88   (           4.77 per slice )
+log(Z)     =         -776.73 +/-  0.09
+log(Z_1)   =         -776.73 +/-  0.09 (still evaluating)
+log(Z_2)   =         -789.07 +/-  0.51
+
+
+
+__________________
+lives      |  900 |
+phantoms   |15401 |
+posteriors |24625 |
+equals     | 1473 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       2
+ndead      =               14431
+nposterior =               24633
+nequals    =                1493
+nlike      =              474638
+<nlike>    =          86.78   (           4.82 per slice )
+log(Z)     =         -774.13 +/-  0.09
+log(Z_1)   =         -774.13 +/-  0.09 (still evaluating)
+log(Z_2)   =         -789.07 +/-  0.51
+
+
+
+__________________
+lives      |  900 |
+phantoms   |15224 |
+posteriors |27262 |
+equals     | 3109 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       2
+ndead      =               15334
+nposterior =               27270
+nequals    =                3156
+nlike      =              552586
+<nlike>    =          86.61   (           4.81 per slice )
+log(Z)     =         -772.88 +/-  0.09
+log(Z_1)   =         -772.88 +/-  0.09 (still evaluating)
+log(Z_2)   =         -789.07 +/-  0.51
+
+
+
+__________________
+lives      |  900 |
+phantoms   |15100 |
+posteriors |29774 |
+equals     | 5391 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       2
+ndead      =               16237
+nposterior =               29782
+nequals    =                5453
+nlike      =              630165
+<nlike>    =          86.20   (           4.79 per slice )
+log(Z)     =         -772.31 +/-  0.09
+log(Z_1)   =         -772.31 +/-  0.09 (still evaluating)
+log(Z_2)   =         -789.07 +/-  0.51
+
+
+
+__________________
+lives      |  900 |
+phantoms   |15057 |
+posteriors |32420 |
+equals     | 6998 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       2
+ndead      =               17142
+nposterior =               32428
+nequals    =                7048
+nlike      =              708165
+<nlike>    =          86.67   (           4.81 per slice )
+log(Z)     =         -772.06 +/-  0.09
+log(Z_1)   =         -772.06 +/-  0.09 (still evaluating)
+log(Z_2)   =         -789.07 +/-  0.51
+
+
+
+__________________
+lives      |  900 |
+phantoms   |15530 |
+posteriors |34937 |
+equals     | 7707 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       2
+ndead      =               18045
+nposterior =               34945
+nequals    =                7761
+nlike      =              785991
+<nlike>    =          86.47   (           4.80 per slice )
+log(Z)     =         -771.96 +/-  0.09
+log(Z_1)   =         -771.96 +/-  0.09 (still evaluating)
+log(Z_2)   =         -789.07 +/-  0.51
+
+
+
+__________________
+lives      |  900 |
+phantoms   |15973 |
+posteriors |37454 |
+equals     | 8039 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       2
+ndead      =               18950
+nposterior =               37462
+nequals    =                8033
+nlike      =              864491
+<nlike>    =          87.22   (           4.85 per slice )
+log(Z)     =         -771.92 +/-  0.09
+log(Z_1)   =         -771.92 +/-  0.09 (still evaluating)
+log(Z_2)   =         -789.07 +/-  0.51
+
+
+
+__________________
+lives      |  900 |
+phantoms   |15791 |
+posteriors |40043 |
+equals     | 8185 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       2
+ndead      =               19854
+nposterior =               40051
+nequals    =                8137
+nlike      =              942479
+<nlike>    =          86.65   (           4.81 per slice )
+log(Z)     =         -771.90 +/-  0.09
+log(Z_1)   =         -771.90 +/-  0.09 (still evaluating)
+log(Z_2)   =         -789.07 +/-  0.51
+
+
+
+__________________
+lives      |  900 |
+phantoms   |15279 |
+posteriors |42707 |
+equals     | 8220 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       4
+ndead      =               20758
+nposterior =               42735
+nequals    =                8190
+nlike      =             1021757
+<nlike>    =          88.09   (           4.89 per slice )
+log(Z)     =         -771.90 +/-  0.09
+log(Z_1)   =         -771.91 +/-  0.09 (still evaluating)
+log(Z_2)   =         -777.29 +/-  0.15
+log(Z_3)   =         -777.68 +/-  0.17
+log(Z_4)   =         -789.07 +/-  0.51
+
+
+
+__________________
+lives      |  900 |
+phantoms   |15351 |
+posteriors |45286 |
+equals     | 8234 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       4
+ndead      =               21661
+nposterior =               45314
+nequals    =                8202
+nlike      =             1099623
+<nlike>    =          86.52   (           4.81 per slice )
+log(Z)     =         -771.90 +/-  0.09
+log(Z_1)   =         -771.90 +/-  0.09 (still evaluating)
+log(Z_2)   =         -777.29 +/-  0.15
+log(Z_3)   =         -777.68 +/-  0.17
+log(Z_4)   =         -789.07 +/-  0.51
+
+
+
+ ____________________________________________________ 
+|                                                    |
+| ndead  =        22803                              |
+| log(Z) =         -771.89415 +/-            0.09383 |
+|____________________________________________________|
+Worker  4: efficient MPI parallelisation; wait_time/slice_time=    0.85411414E-01
+Worker  1: efficient MPI parallelisation; wait_time/slice_time=    0.87039357E-01
+Worker  5: efficient MPI parallelisation; wait_time/slice_time=    0.81532678E-01
+Worker  2: efficient MPI parallelisation; wait_time/slice_time=    0.84604884E-01
+Worker  7: efficient MPI parallelisation; wait_time/slice_time=    0.68056560E-01
+Worker  6: efficient MPI parallelisation; wait_time/slice_time=    0.10157284E+00
+Worker  3: efficient MPI parallelisation; wait_time/slice_time=    0.10460024E+00
+[0 : polychord] Loading PolyChord's results: samples and evidences.
+[0 : polychord] Finished! Raw PolyChord output stored in 'lcdm_chains/chain_polychord_raw', with prefix 'chain'
+[0 : polychord] log(Z) = -771.895 +/- 0.0938342 ; Z in [0, 0] (68% C.L. log-gaussian)

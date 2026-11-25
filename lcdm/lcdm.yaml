@@ -1,0 +1,26 @@
+likelihood:
+    import: import_module('rh2s2_pplus').my_likelihood
+
+params:
+    h:      {prior: {min: 0.5, max: 1.0}, latex: h}
+    om_im:  {prior: {min: 0.2, max: 0.5}, latex: \Omega_m}
+    M0:     {prior: {min: -21, max: -18}, latex: M_0}
+    sigma:  0
+    e2:     0
+    om_k:   0
+    la:     150
+    ba:     30
+    wbar:   0
+
+sampler:
+    polychord:
+        path: /home/tanay/PolyChordLite
+        nlive: 900
+        num_repeats: 6d
+        precision_criterion: 0.001
+        boost_posterior: 2.0
+        do_clustering: True
+        write_dead: True
+        feedback: 1
+
+output: lcdm_chains/chain

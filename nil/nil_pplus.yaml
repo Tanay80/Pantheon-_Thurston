@@ -1,5 +1,5 @@
 likelihood:
-    import: import_module('solv_pplus').my_likelihood
+    import: import_module('nil_pplus').my_likelihood
     
 params:
     h:
@@ -19,7 +19,7 @@ params:
         latex: \Omega_M
             
     om_k:
-        prior: {min: 0, max: 0.1}
+        prior: {min: 0, max: 0.25}
         latex: \Omega_\kappa
             
     la:
@@ -34,13 +34,11 @@ params:
         prior: {min: -21, max: -18}
         latex: M_0
             
-    wbar:            
-        prior: {min: -1, max: 0}
-        latex: \bar{w}
+    wbar: 0
         
 sampler:
     polychord:
-        path: /home/groupinstrument/grp_sukanta/tanay/PolyChordLite-master
+        path: /home/tanay/PolyChordLite
         nlive: 100d
         num_repeats: 6d
         precision_criterion: 0.001
@@ -49,4 +47,4 @@ sampler:
         write_dead: True
         feedback: 1
 
-output: solv_chains/chain
+output: nil_chains/chain

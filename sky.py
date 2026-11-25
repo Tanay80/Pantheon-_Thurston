@@ -17,9 +17,9 @@ def plot_ellipse(ax, l, b, l_err, b_err, color, label):
     ax.add_patch(ellipse)
 
 points = {
-    'R×H²/S²': {'coords': (168.431, -0.702), 'l_err': 104.449, 'b_err': 33.116, 'color': 'red'},
-    'Nil': {'coords': (132.048, 0.632), 'l_err': 87.062, 'b_err': 33.929, 'color': 'green'},
-    'Solv': {'coords': (151.639, 21.053), 'l_err': 103.349, 'b_err': 66.260, 'color': 'blue'},
+    'R×H²/S²': {'coords': (162.931, 3.639), 'l_err': 101.871, 'b_err': 46.662, 'color': 'red'},
+    'Nil': {'coords': (167.639, -1.443), 'l_err': 99.775, 'b_err': 48.443, 'color': 'green'},
+    'Solv': {'coords': (175.031, -2.855), 'l_err': 100.032, 'b_err': 48.387, 'color': 'blue'},
     'B-I_CS': {'coords': (290.3, 9), 'l_err': -14.15, 'b_err': 17, 'color': 'yellow'},
     'B-I_DW': {'coords': (214, -41.6), 'l_err': -6, 'b_err': 7.15, 'color': 'brown'},
     'B-I_LVMF': {'coords': (222, -46), 'l_err': -5, 'b_err': 6.6, 'color': 'pink'},
