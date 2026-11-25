@@ -54,7 +54,7 @@ covariance. Calibrator rows use the Cepheid distance modulus.
 ## Repository layout
 
 ```
-production/
+repository/
 ├── rh2s2/   rh2s2_pplus.py   rh2s2_pplus.yaml   pplus.csv  pplus_cov.txt
 ├── nil/     nil_pplus.py     nil_pplus.yaml     pplus.csv  pplus_cov.txt
 ├── solv/    solv_pplus.py    solv_pplus.yaml    pplus.csv  pplus_cov.txt
