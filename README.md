@@ -121,7 +121,7 @@ nohup sh -c "mpirun -n 15 cobaya-run lcdm.yaml -r > lcdm.log 2>&1; \
 | Ω_m | [0.2, 0.5] | same |
 | Ω_κ | [-0.25, 0.25] | [0, 0.25] (these need κ < 0) |
 | l_a | [0°, 360°] | same |
-| b_a | [0°, 90°] | same |
+| b_a | [-90°, 90°] | same |
 | M₀ | [-21, -18] | same |
 | w̄ | [-0.3, 0.3] | same |
 
