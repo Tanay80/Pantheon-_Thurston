@@ -1,0 +1,245 @@
+.
+├── analyse_mock.py
+├── check3_all.py
+├── check_table3.py
+├── compare_z.py
+├── lcdm
+│   ├── lcdm_chains
+│   │   ├── chain.1.txt
+│   │   ├── chain_clusters
+│   │   │   ├── chain.1.txt
+│   │   │   ├── chain.2.txt
+│   │   │   ├── chain.3.txt
+│   │   │   └── chain.4.txt
+│   │   ├── chain.input.yaml
+│   │   ├── chain.logZ
+│   │   ├── chain_polychord_raw
+│   │   │   ├── chain_dead-birth.txt
+│   │   │   ├── chain_dead.txt
+│   │   │   ├── chain_equal_weights.txt
+│   │   │   ├── chain.paramnames
+│   │   │   ├── chain_phys_live-birth.txt
+│   │   │   ├── chain_phys_live.txt
+│   │   │   ├── chain.prior_info
+│   │   │   ├── chain_prior.txt
+│   │   │   ├── chain.resume
+│   │   │   ├── chain.stats
+│   │   │   ├── chain.txt
+│   │   │   └── clusters
+│   │   │       ├── chain_1_equal_weights.txt
+│   │   │       ├── chain_1.txt
+│   │   │       ├── chain_2_equal_weights.txt
+│   │   │       ├── chain_2.txt
+│   │   │       ├── chain_3_equal_weights.txt
+│   │   │       ├── chain_3.txt
+│   │   │       ├── chain_4_equal_weights.txt
+│   │   │       ├── chain_4.txt
+│   │   │       ├── chain_5_temp.txt
+│   │   │       ├── chain_phys_live_1.txt
+│   │   │       └── chain_phys_live_2.txt
+│   │   └── chain.updated.yaml
+│   ├── lcdm_out.png
+│   ├── lcdm.png
+│   ├── lcdm.yaml
+│   └── rh2s2_pplus.py
+├── nil
+│   ├── log_mock.txt
+│   ├── nil_chains
+│   │   ├── chain.1.txt
+│   │   ├── chain_clusters
+│   │   │   ├── chain.10.txt
+│   │   │   ├── chain.11.txt
+│   │   │   ├── chain.12.txt
+│   │   │   ├── chain.1.txt
+│   │   │   ├── chain.2.txt
+│   │   │   ├── chain.3.txt
+│   │   │   ├── chain.4.txt
+│   │   │   ├── chain.5.txt
+│   │   │   ├── chain.6.txt
+│   │   │   ├── chain.7.txt
+│   │   │   ├── chain.8.txt
+│   │   │   └── chain.9.txt
+│   │   ├── chain.input.yaml
+│   │   ├── chain.logZ
+│   │   ├── chain_polychord_raw
+│   │   │   ├── chain_dead-birth.txt
+│   │   │   ├── chain_dead.txt
+│   │   │   ├── chain_equal_weights.txt
+│   │   │   ├── chain.paramnames
+│   │   │   ├── chain_phys_live-birth.txt
+│   │   │   ├── chain_phys_live.txt
+│   │   │   ├── chain.prior_info
+│   │   │   ├── chain_prior.txt
+│   │   │   ├── chain.resume
+│   │   │   ├── chain.stats
+│   │   │   ├── chain.txt
+│   │   │   └── clusters
+│   │   │       ├── chain_10_equal_weights.txt
+│   │   │       ├── chain_10.txt
+│   │   │       ├── chain_11_equal_weights.txt
+│   │   │       ├── chain_11.txt
+│   │   │       ├── chain_12_equal_weights.txt
+│   │   │       ├── chain_12.txt
+│   │   │       ├── chain_13_temp.txt
+│   │   │       ├── chain_14_temp.txt
+│   │   │       ├── chain_15_temp.txt
+│   │   │       ├── chain_16_temp.txt
+│   │   │       ├── chain_18_temp.txt
+│   │   │       ├── chain_1_equal_weights.txt
+│   │   │       ├── chain_1.txt
+│   │   │       ├── chain_2_equal_weights.txt
+│   │   │       ├── chain_2.txt
+│   │   │       ├── chain_3_equal_weights.txt
+│   │   │       ├── chain_3.txt
+│   │   │       ├── chain_4_equal_weights.txt
+│   │   │       ├── chain_4.txt
+│   │   │       ├── chain_5_equal_weights.txt
+│   │   │       ├── chain_5.txt
+│   │   │       ├── chain_6_equal_weights.txt
+│   │   │       ├── chain_6.txt
+│   │   │       ├── chain_7_equal_weights.txt
+│   │   │       ├── chain_7.txt
+│   │   │       ├── chain_8_equal_weights.txt
+│   │   │       ├── chain_8.txt
+│   │   │       ├── chain_9_equal_weights.txt
+│   │   │       ├── chain_9.txt
+│   │   │       ├── chain_phys_live_1.txt
+│   │   │       ├── chain_phys_live_2.txt
+│   │   │       ├── chain_phys_live_3.txt
+│   │   │       ├── chain_phys_live_4.txt
+│   │   │       ├── chain_phys_live_5.txt
+│   │   │       ├── chain_phys_live_6.txt
+│   │   │       ├── chain_phys_live_7.txt
+│   │   │       └── chain_phys_live_8.txt
+│   │   └── chain.updated.yaml
+│   ├── nil_out.png
+│   ├── nil.png
+│   ├── nil_pplus.py
+│   ├── nil_pplus.yaml
+│   ├── nil_pplus_zcmb.py
+│   ├── null_tests.py
+│   ├── res_nil_pplus_mock.txt
+│   ├── res_nil_pplus_real.txt
+│   └── res_nil_pplus_zcmb_real.txt
+├── pplus_cov.txt
+├── pplus.csv
+├── README.md
+├── rh2s2
+│   ├── check2.py
+│   ├── check3.py
+│   ├── check.py
+│   ├── log_mock.txt
+│   ├── null_tests.py
+│   ├── res_rh2s2_pplus_mock.txt
+│   ├── res_rh2s2_pplus_real.txt
+│   ├── res_rh2s2_pplus_scramble.txt
+│   ├── res_rh2s2_pplus_zcmb_real.txt
+│   ├── rh2s2_chains
+│   │   ├── chain.1.txt
+│   │   ├── chain_clusters
+│   │   │   ├── chain.1.txt
+│   │   │   ├── chain.2.txt
+│   │   │   ├── chain.3.txt
+│   │   │   ├── chain.4.txt
+│   │   │   └── chain.5.txt
+│   │   ├── chain.input.yaml
+│   │   ├── chain.logZ
+│   │   ├── chain_polychord_raw
+│   │   │   ├── chain_dead-birth.txt
+│   │   │   ├── chain_dead.txt
+│   │   │   ├── chain_equal_weights.txt
+│   │   │   ├── chain.paramnames
+│   │   │   ├── chain_phys_live-birth.txt
+│   │   │   ├── chain_phys_live.txt
+│   │   │   ├── chain.prior_info
+│   │   │   ├── chain_prior.txt
+│   │   │   ├── chain.resume
+│   │   │   ├── chain.stats
+│   │   │   ├── chain.txt
+│   │   │   └── clusters
+│   │   │       ├── chain_1_equal_weights.txt
+│   │   │       ├── chain_1.txt
+│   │   │       ├── chain_2_equal_weights.txt
+│   │   │       ├── chain_2.txt
+│   │   │       ├── chain_3_equal_weights.txt
+│   │   │       ├── chain_3.txt
+│   │   │       ├── chain_4_equal_weights.txt
+│   │   │       ├── chain_4.txt
+│   │   │       ├── chain_5_equal_weights.txt
+│   │   │       ├── chain_5.txt
+│   │   │       ├── chain_9_temp.txt
+│   │   │       ├── chain_phys_live_1.txt
+│   │   │       ├── chain_phys_live_2.txt
+│   │   │       ├── chain_phys_live_3.txt
+│   │   │       └── chain_phys_live_4.txt
+│   │   └── chain.updated.yaml
+│   ├── rh2s2_out.png
+│   ├── rh2s2.png
+│   ├── rh2s2_pplus.py
+│   ├── rh2s2_pplus.yaml
+│   └── rh2s2_pplus_zcmb.py
+├── sky.png
+├── sky.py
+├── solv
+│   ├── log_mock.txt
+│   ├── null_tests.py
+│   ├── res_solv_pplus_mock.txt
+│   ├── res_solv_pplus_real.txt
+│   ├── res_solv_pplus_zcmb_real.txt
+│   ├── solv_chains
+│   │   ├── chain.1.txt
+│   │   ├── chain_clusters
+│   │   │   ├── chain.1.txt
+│   │   │   ├── chain.2.txt
+│   │   │   ├── chain.3.txt
+│   │   │   ├── chain.4.txt
+│   │   │   ├── chain.5.txt
+│   │   │   ├── chain.6.txt
+│   │   │   └── chain.7.txt
+│   │   ├── chain.input.yaml
+│   │   ├── chain.logZ
+│   │   ├── chain_polychord_raw
+│   │   │   ├── chain_dead-birth.txt
+│   │   │   ├── chain_dead.txt
+│   │   │   ├── chain_equal_weights.txt
+│   │   │   ├── chain.paramnames
+│   │   │   ├── chain_phys_live-birth.txt
+│   │   │   ├── chain_phys_live.txt
+│   │   │   ├── chain.prior_info
+│   │   │   ├── chain_prior.txt
+│   │   │   ├── chain.resume
+│   │   │   ├── chain.stats
+│   │   │   ├── chain.txt
+│   │   │   └── clusters
+│   │   │       ├── chain_10_temp.txt
+│   │   │       ├── chain_11_temp.txt
+│   │   │       ├── chain_12_temp.txt
+│   │   │       ├── chain_1_equal_weights.txt
+│   │   │       ├── chain_1.txt
+│   │   │       ├── chain_2_equal_weights.txt
+│   │   │       ├── chain_2.txt
+│   │   │       ├── chain_3_equal_weights.txt
+│   │   │       ├── chain_3.txt
+│   │   │       ├── chain_4_equal_weights.txt
+│   │   │       ├── chain_4.txt
+│   │   │       ├── chain_5_equal_weights.txt
+│   │   │       ├── chain_5.txt
+│   │   │       ├── chain_6_equal_weights.txt
+│   │   │       ├── chain_6.txt
+│   │   │       ├── chain_7_equal_weights.txt
+│   │   │       ├── chain_7.txt
+│   │   │       ├── chain_9_temp.txt
+│   │   │       ├── chain_phys_live_1.txt
+│   │   │       ├── chain_phys_live_2.txt
+│   │   │       ├── chain_phys_live_3.txt
+│   │   │       ├── chain_phys_live_4.txt
+│   │   │       └── chain_phys_live_5.txt
+│   │   └── chain.updated.yaml
+│   ├── solv_out.png
+│   ├── solv.png
+│   ├── solv_pplus.py
+│   ├── solv_pplus.yaml
+│   └── solv_pplus_zcmb.py
+└── tree.txt
+
+21 directories, 222 files
